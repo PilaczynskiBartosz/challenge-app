@@ -18,7 +18,7 @@ namespace ChallangeApp
     }
     class day_4
     {
-        static void Main() //math operations
+        static void Main() //different variables and math operations
         {
             // small integers
             int i1 = 10;
