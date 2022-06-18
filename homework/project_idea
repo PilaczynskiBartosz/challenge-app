@@ -1,0 +1,3 @@
+Elektroniczny system oceny prac uczniów, aby odczytać wyniki poszczególnych osób, a następnie obliczyć statystyki z wyników.
+Oceny są wprowadzane jako liczby zmiennoprzecinkowe od 0% do 100%, a te statystyki powinny pokazywać nam ocenę od 1 do 6,
+ocenę najwyższą, najniższą i średnią.
