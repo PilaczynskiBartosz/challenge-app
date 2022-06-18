@@ -2,6 +2,13 @@ using System;
 
 namespace ChallangeApp
 {
+    class day_2
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine($"Hola, Captain!");
+        }
+    }
     class day_3
     {
         static void Main(string[] args)
@@ -11,6 +18,8 @@ namespace ChallangeApp
     }
     class day_4
     {
+        static void Main()
+        {
             // small integers
             int i1 = 10;
             int i2 = 15;
@@ -34,5 +43,6 @@ namespace ChallangeApp
             var mul = dec1 * dec2;
             var pow = d * d;
             var str = i1 + name;
+        }
     }
 }
