@@ -4,21 +4,21 @@ namespace ChallangeApp
 {
     class day_2
     {
-        static void Main()
+        static void Main() //print output
         {
             Console.WriteLine($"Hola, Captain!");
         }
     }
     class day_3
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //print output with variable passed from the command line
         {
             Console.WriteLine($"Hello, {args[0]}");
         }
     }
     class day_4
     {
-        static void Main()
+        static void Main() //math operations
         {
             // small integers
             int i1 = 10;
