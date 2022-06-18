@@ -4,7 +4,7 @@ namespace ChallangeApp
 {
     class day_2
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine($"Hola, Captain!");
         }
