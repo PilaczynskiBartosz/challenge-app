@@ -2,7 +2,7 @@ using System;
 
 namespace StudentGrades
 {
-    class day_3
+    class Program
     {
         static void Main(string[] args)
         {
