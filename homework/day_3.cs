@@ -1,8 +1,13 @@
+using System;
+using System.Collections.Generic;
+
+namespace ChallangeApp
+{
     class day_3
     {
-        static void Main(string[] args) //print output with variable passed from the command line
+        static void Main(string[] args)
         {
             Console.WriteLine($"Hello, {args[0]}");
         }
     }
-    
+}    
