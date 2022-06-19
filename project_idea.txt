@@ -1,7 +1,7 @@
 PL: System oceny prac uczniów, aby wprowadzić i odczytać wyniki poszczególnych osób, a następnie obliczyć statystyki z wyników. 
 Oceny są wprowadzane jako liczby całkowite od 0% do 100%, 
-a te statystyki powinny pokazywać nam wyliczoną ze statystyk ocenę od 1 do 6 i średnią oraz ocenę najwyższą, i najniższą spośród wszystkich uczniów.
+a te statystyki powinny pokazywać nam wyliczoną ze statystyk ocenę od 1 do 6, średnią, ocenę najwyższą, i najniższą każdego ucznia.
 
 EN: A system for grading student work to enter and read the scores of individuals, and then calculate statistics from the scores. 
 The grades are entered as integers from 0% to 100%, and these statistics should show us the grade from 1 to 6 calculated from the statistics, 
-and the average, and the highest grade, and the lowest grade among all students.
+and the average, the highest grade, and the lowest grade for each student.
