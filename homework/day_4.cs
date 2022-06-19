@@ -1,6 +1,11 @@
-class day_4
+using System;
+using System.Collections.Generic;
+
+namespace ChallangeApp
+{
+    class day_4
     {
-        static void Main() //different variables and math operations
+        static void Main()
         {
             // small integers
             int i1 = 10;
@@ -27,3 +32,4 @@ class day_4
             var str = i1 + name;
         }
     }
+}
