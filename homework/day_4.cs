@@ -29,6 +29,13 @@ namespace ChallangeApp
             var mul = dec1 * dec2;
             var pow = d * d;
             var str = i1 + name;
+
+            Console.WriteLine(sum);
+            Console.WriteLine(sub);
+            Console.WriteLine(mul);
+            Console.WriteLine(div);
+            Console.WriteLine(pow);
+            Console.WriteLine(str);
         }
     }
 }
