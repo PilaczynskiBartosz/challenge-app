@@ -1,4 +1,4 @@
-namespace ChallangeApp
+namespace StudentGrades
 {
     public class Student
     {
@@ -10,44 +10,21 @@ namespace ChallangeApp
             this.name = name;
         }
 
-        public void addGrade(char grade)
+        public void AddGrade(int grade)
         {
-            switch(grade)
-            {
-                case 'A':
-                    this.grades.Add(100);
-                    break;
-                case 'B':
-                    this.grades.Add(80);
-                    break;
-                case 'C':
-                    this.grades.Add(70);
-                    break;
-                case 'D':
-                    this.grades.Add(60);
-                    break;
-                case 'E':
-                    this.grades.Add(50);
-                    break;
-                case 'F':
-                    this.grades.Add(40);
-                    break;
-                default:
-                    this.grades.Add(0);
-                    break;
-            }
+            this.grades.Add(grade);
         }
-        public Statistics getStatistics(){
+        public Statistics GetStatistics()
+        {
             var result = new Statistics();
             result.Average = 0.0;
-            result.High = double.MinValue;
-            result.Low = double.MaxValue;
-            result.Mark = 0;
+            result.Highest = double.MinValue;
+            result.Lowest = double.MaxValue;
 
             foreach (var grade in grades)
             {
-                result.Low = Math.Min(grade, result.Low);
-                result.High = Math.Max(grade, result.High);
+                result.Lowest = Math.Min(grade, result.Lowest);
+                result.Highest = Math.Max(grade, result.Highest);
                 result.Average += grade;
             }
             result.Average /= grades.Count;
