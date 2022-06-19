@@ -1,5 +1,5 @@
 PL: System oceny prac uczniów, aby wprowadzić i odczytać wyniki poszczególnych osób, a następnie obliczyć statystyki z wyników. 
-Oceny są wprowadzane jako liczby całkowite od 0% do 100%, 
+Oceny są wprowadzane jako liczby całkowite od 0 do 100, 
 a te statystyki powinny pokazywać nam wyliczoną ze statystyk ocenę od 1 do 6, średnią, ocenę najwyższą, i najniższą każdego ucznia.
 
 EN: A system for grading student work to enter and read the scores of individuals, and then calculate statistics from the scores. 
