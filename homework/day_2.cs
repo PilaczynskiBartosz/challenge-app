@@ -1,12 +1,12 @@
 using System;
 
-namespace ChallangeApp
+namespace StudentGrades
 {
     class day_2
     {
         static void Main()
         {
-            Console.WriteLine($"Hola, Captain!");
+            Console.WriteLine("New project");
         }
     }
 }
