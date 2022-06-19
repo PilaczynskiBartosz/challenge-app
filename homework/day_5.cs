@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ChallangeApp
+namespace StudentGrades
 {
     class day_5
     {
