@@ -1,6 +1,6 @@
 using System;
 
-namespace ChallangeApp
+namespace StudentGrades
 {
     class day_4
     {
