@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace StudentGrades
 {
-    class day_5
+    class Program
     {
         static void Main()
         {
