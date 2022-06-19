@@ -3,7 +3,7 @@ namespace StudentGrades
     public class Student
     {
         private string name;
-        private List<double> grades = new List<double>();
+        private List<int> grades = new List<int>();
 
         public Student(string name)
         {
