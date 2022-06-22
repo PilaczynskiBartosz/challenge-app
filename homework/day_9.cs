@@ -1,5 +1,12 @@
-public void AddGradeStr(string grade)
-        {
+using System;
+using System.Globalization;
+
+namespace StudentGrades
+{
+    public class Student
+    {
+            public void AddGradeStr(string grade)
+            {
             bool success = int.TryParse(grade, out int numberGrade);
             if(success)
             {
@@ -17,3 +24,5 @@ public void AddGradeStr(string grade)
                 Console.WriteLine($"Couldn't add {grade} to list. Invalid value");
             }
         }
+    }
+}
