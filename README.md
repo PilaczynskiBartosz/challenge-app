@@ -1,9 +1,4 @@
-# gotoit
-
-PL: System oceny prac uczniów, aby wprowadzić i odczytać wyniki poszczególnych osób, a następnie obliczyć statystyki z wyników. 
-Oceny są wprowadzane jako liczby zmiennoprzecinkowe od 0 do 6, 
-a te statystyki powinny pokazywać nam wyliczoną ze statystyk ocenę od A do F, średnią, ocenę najwyższą, i najniższą każdego ucznia.
-Wszystkie oceny zapisują się w pliku z imieniem i nazwiskiem ucznia.
+# challenge app
 
 EN: A system for evaluating students' work to enter and read the results of individual individuals, and then calculate statistics from the results. 
 Ratings are entered as floating-point numbers from 0 to 6, and these statistics should show us the grade from A to F calculated from the statistics,
